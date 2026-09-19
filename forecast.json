@@ -1,0 +1,150 @@
+{
+  "version_formato": 1,
+  "aviso": "Producto experimental de investigación (tesis de maestría, FIUNA). No es una alerta oficial.",
+  "actualizado": "2026-09-19T19:56:04Z",
+  "ultimo_dato": "2026-09-19T16:50:00-03:00",
+  "ultima_lectura": "2026-09-19T16:55:01-03:00",
+  "estado": "ok",
+  "modelo": "v2",
+  "unidad": "m",
+  "umbral": {
+    "nombre": "p95",
+    "valor": 0.565,
+    "periodo": "2025",
+    "descripcion": "Nivel superado solo el 5 % del tiempo en los datos de 2025. Es una referencia estadística, no un umbral oficial de alerta."
+  },
+  "banda": {
+    "cobertura": 0.9,
+    "calibracion": "en_linea",
+    "nota": "El rango del 90 % contiene el nivel real 9 de cada 10 veces en promedio a lo largo del tiempo; no es una garantía para cada pronóstico individual (la banda se recalibra en línea, ADR-014)."
+  },
+  "observado": [
+    {
+      "hora": "2026-09-19T13:50:00-03:00",
+      "nivel": 0.495,
+      "lluvia_mm": 0.0
+    },
+    {
+      "hora": "2026-09-19T14:00:00-03:00",
+      "nivel": 0.494,
+      "lluvia_mm": 0.0
+    },
+    {
+      "hora": "2026-09-19T14:10:00-03:00",
+      "nivel": 0.493,
+      "lluvia_mm": 0.0
+    },
+    {
+      "hora": "2026-09-19T14:20:00-03:00",
+      "nivel": 0.493,
+      "lluvia_mm": 0.0
+    },
+    {
+      "hora": "2026-09-19T14:30:00-03:00",
+      "nivel": 0.492,
+      "lluvia_mm": 0.0
+    },
+    {
+      "hora": "2026-09-19T14:40:00-03:00",
+      "nivel": 0.489,
+      "lluvia_mm": 0.0
+    },
+    {
+      "hora": "2026-09-19T14:50:00-03:00",
+      "nivel": 0.487,
+      "lluvia_mm": 0.0
+    },
+    {
+      "hora": "2026-09-19T15:00:00-03:00",
+      "nivel": 0.486,
+      "lluvia_mm": 0.0
+    },
+    {
+      "hora": "2026-09-19T15:10:00-03:00",
+      "nivel": 0.486,
+      "lluvia_mm": 0.0
+    },
+    {
+      "hora": "2026-09-19T15:20:00-03:00",
+      "nivel": 0.485,
+      "lluvia_mm": 0.0
+    },
+    {
+      "hora": "2026-09-19T15:30:00-03:00",
+      "nivel": 0.482,
+      "lluvia_mm": 0.0
+    },
+    {
+      "hora": "2026-09-19T15:40:00-03:00",
+      "nivel": 0.482,
+      "lluvia_mm": 0.0
+    },
+    {
+      "hora": "2026-09-19T15:50:00-03:00",
+      "nivel": 0.482,
+      "lluvia_mm": 0.0
+    },
+    {
+      "hora": "2026-09-19T16:00:00-03:00",
+      "nivel": 0.481,
+      "lluvia_mm": 0.0
+    },
+    {
+      "hora": "2026-09-19T16:10:00-03:00",
+      "nivel": 0.479,
+      "lluvia_mm": 0.0
+    },
+    {
+      "hora": "2026-09-19T16:20:00-03:00",
+      "nivel": 0.478,
+      "lluvia_mm": 0.0
+    },
+    {
+      "hora": "2026-09-19T16:30:00-03:00",
+      "nivel": 0.476,
+      "lluvia_mm": 0.0
+    },
+    {
+      "hora": "2026-09-19T16:40:00-03:00",
+      "nivel": 0.478,
+      "lluvia_mm": 0.0
+    },
+    {
+      "hora": "2026-09-19T16:50:00-03:00",
+      "nivel": 0.475,
+      "lluvia_mm": 0.0
+    }
+  ],
+  "pronostico": [
+    {
+      "hora": "2026-09-19T17:00:00-03:00",
+      "minutos": 10,
+      "nivel": 0.475,
+      "min_90": 0.469,
+      "max_90": 0.481,
+      "min_80": 0.471,
+      "max_80": 0.478,
+      "prob_umbral": 0.0058
+    },
+    {
+      "hora": "2026-09-19T17:10:00-03:00",
+      "minutos": 20,
+      "nivel": 0.475,
+      "min_90": 0.465,
+      "max_90": 0.486,
+      "min_80": 0.469,
+      "max_80": 0.482,
+      "prob_umbral": 0.0185
+    },
+    {
+      "hora": "2026-09-19T17:20:00-03:00",
+      "minutos": 30,
+      "nivel": 0.476,
+      "min_90": 0.461,
+      "max_90": 0.491,
+      "min_80": 0.466,
+      "max_80": 0.486,
+      "prob_umbral": 0.0266
+    }
+  ]
+}
