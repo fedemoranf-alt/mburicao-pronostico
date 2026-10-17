@@ -1,0 +1,150 @@
+{
+  "version_formato": 1,
+  "aviso": "Producto experimental de investigación (tesis de maestría, FIUNA). No es una alerta oficial.",
+  "actualizado": "2026-10-17T19:36:06Z",
+  "ultimo_dato": "2026-10-17T16:30:00-03:00",
+  "ultima_lectura": "2026-10-17T16:35:01-03:00",
+  "estado": "ok",
+  "modelo": "v2",
+  "unidad": "m",
+  "umbral": {
+    "nombre": "p95",
+    "valor": 0.565,
+    "periodo": "2025",
+    "descripcion": "Nivel superado solo el 5 % del tiempo en los datos de 2025. Es una referencia estadística, no un umbral oficial de alerta."
+  },
+  "banda": {
+    "cobertura": 0.9,
+    "calibracion": "en_linea",
+    "nota": "El rango del 90 % contiene el nivel real 9 de cada 10 veces en promedio a lo largo del tiempo; no es una garantía para cada pronóstico individual (la banda se recalibra en línea, ADR-014)."
+  },
+  "observado": [
+    {
+      "hora": "2026-10-17T13:30:00-03:00",
+      "nivel": 0.486,
+      "lluvia_min": 0
+    },
+    {
+      "hora": "2026-10-17T13:40:00-03:00",
+      "nivel": 0.483,
+      "lluvia_min": 0
+    },
+    {
+      "hora": "2026-10-17T13:50:00-03:00",
+      "nivel": 0.484,
+      "lluvia_min": 0
+    },
+    {
+      "hora": "2026-10-17T14:00:00-03:00",
+      "nivel": 0.482,
+      "lluvia_min": 0
+    },
+    {
+      "hora": "2026-10-17T14:10:00-03:00",
+      "nivel": 0.481,
+      "lluvia_min": 0
+    },
+    {
+      "hora": "2026-10-17T14:20:00-03:00",
+      "nivel": 0.481,
+      "lluvia_min": 0
+    },
+    {
+      "hora": "2026-10-17T14:30:00-03:00",
+      "nivel": 0.481,
+      "lluvia_min": 0
+    },
+    {
+      "hora": "2026-10-17T14:40:00-03:00",
+      "nivel": 0.48,
+      "lluvia_min": 0
+    },
+    {
+      "hora": "2026-10-17T14:50:00-03:00",
+      "nivel": 0.478,
+      "lluvia_min": 0
+    },
+    {
+      "hora": "2026-10-17T15:00:00-03:00",
+      "nivel": 0.478,
+      "lluvia_min": 0
+    },
+    {
+      "hora": "2026-10-17T15:10:00-03:00",
+      "nivel": 0.478,
+      "lluvia_min": 0
+    },
+    {
+      "hora": "2026-10-17T15:20:00-03:00",
+      "nivel": 0.478,
+      "lluvia_min": 0
+    },
+    {
+      "hora": "2026-10-17T15:30:00-03:00",
+      "nivel": 0.475,
+      "lluvia_min": 0
+    },
+    {
+      "hora": "2026-10-17T15:40:00-03:00",
+      "nivel": 0.476,
+      "lluvia_min": 0
+    },
+    {
+      "hora": "2026-10-17T15:50:00-03:00",
+      "nivel": 0.475,
+      "lluvia_min": 0
+    },
+    {
+      "hora": "2026-10-17T16:00:00-03:00",
+      "nivel": 0.475,
+      "lluvia_min": 0
+    },
+    {
+      "hora": "2026-10-17T16:10:00-03:00",
+      "nivel": 0.475,
+      "lluvia_min": 0
+    },
+    {
+      "hora": "2026-10-17T16:20:00-03:00",
+      "nivel": 0.475,
+      "lluvia_min": 0
+    },
+    {
+      "hora": "2026-10-17T16:30:00-03:00",
+      "nivel": 0.475,
+      "lluvia_min": 0
+    }
+  ],
+  "pronostico": [
+    {
+      "hora": "2026-10-17T16:40:00-03:00",
+      "minutos": 10,
+      "nivel": 0.476,
+      "min_90": 0.473,
+      "max_90": 0.478,
+      "min_80": 0.474,
+      "max_80": 0.477,
+      "prob_umbral": 0.0
+    },
+    {
+      "hora": "2026-10-17T16:50:00-03:00",
+      "minutos": 20,
+      "nivel": 0.477,
+      "min_90": 0.473,
+      "max_90": 0.48,
+      "min_80": 0.474,
+      "max_80": 0.48,
+      "prob_umbral": 0.0
+    },
+    {
+      "hora": "2026-10-17T17:00:00-03:00",
+      "minutos": 30,
+      "nivel": 0.478,
+      "min_90": 0.472,
+      "max_90": 0.484,
+      "min_80": 0.474,
+      "max_80": 0.482,
+      "prob_umbral": 0.0
+    }
+  ]
+}
